@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29512.175
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBUI", "MongoDBUI\MongoDBUI.csproj", "{988B1EA1-F467-43E6-922B-DB28F5D20582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBUI", "MongoDBUI\MongoDBUI.csproj", "{988B1EA1-F467-43E6-922B-DB28F5D20582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{9F50F48D-C9E7-42F4-9EA8-C913FDE8D4C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{9F50F48D-C9E7-42F4-9EA8-C913FDE8D4C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBUI", "CosmosDBUI\CosmosDBUI.csproj", "{F767CEF5-21E5-4801-86B7-93853C2FBAC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBUI", "CosmosDBUI\CosmosDBUI.csproj", "{F767CEF5-21E5-4801-86B7-93853C2FBAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI", "SampleAPI\SampleAPI.csproj", "{11BBC5DA-6710-4A6F-98A5-9EC3C93D3EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDBUI", "ApiDBUI\ApiDBUI.csproj", "{7E1A9FEA-A476-4B78-8022-59CBCF331A7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{F767CEF5-21E5-4801-86B7-93853C2FBAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F767CEF5-21E5-4801-86B7-93853C2FBAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F767CEF5-21E5-4801-86B7-93853C2FBAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BBC5DA-6710-4A6F-98A5-9EC3C93D3EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BBC5DA-6710-4A6F-98A5-9EC3C93D3EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BBC5DA-6710-4A6F-98A5-9EC3C93D3EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BBC5DA-6710-4A6F-98A5-9EC3C93D3EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1A9FEA-A476-4B78-8022-59CBCF331A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1A9FEA-A476-4B78-8022-59CBCF331A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1A9FEA-A476-4B78-8022-59CBCF331A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1A9FEA-A476-4B78-8022-59CBCF331A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
